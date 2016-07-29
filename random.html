@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script>
+	var i=200;
+	var k=35;
+
+	function random(a,b){
+		i++;
+		k+=i;
+		c= a+i*10-k*8;
+		if(c<0){
+			c=-c;
+		}
+		console.log(a+c%(b-a));
+	}
+</script>
+
+</body>
+</html>
